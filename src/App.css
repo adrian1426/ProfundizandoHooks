@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-primary {
+  background: royalblue;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background: rgb(29, 75, 214);
+  cursor: pointer;
+}
