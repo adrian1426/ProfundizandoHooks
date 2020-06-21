@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import CounterApp from './components/useState/CounterApp';
+import CounterAppCostumHook from './components/useState/CounterAppCostumHook';
 
-function App() {
+function App () {
   return (
     <div className="App">
-      <CounterApp />
+      <CounterAppCostumHook />
     </div>
   );
 }
