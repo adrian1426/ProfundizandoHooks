@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import SimpleForm from './components/useEffect/SimpleForm';
+import SimpleFormCostumHook from './components/useEffect/SimpleFormCostumHook';
 
 function App () {
   return (
     <div className="App">
-      <SimpleForm />
+      <SimpleFormCostumHook />
     </div>
   );
 }
