@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {Message} from './Message';
 
 const SimpleForm = () => {
   const [formState, setFormState] = useState ({
@@ -55,6 +56,8 @@ const SimpleForm = () => {
           onChange={handleInputChange}
         />
       </div>
+
+      {nombre === 'adrian' && <Message />}
     </React.Fragment>
   );
 };
