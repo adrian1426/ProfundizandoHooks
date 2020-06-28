@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import SimpleFormCostumHook from './components/useEffect/SimpleFormCostumHook';
+import MultipleCustomHook from './components/MultipleCustomHooks';
 
-function App () {
+function App() {
   return (
     <div className="App">
-      <SimpleFormCostumHook />
+      <MultipleCustomHook />
     </div>
   );
 }
