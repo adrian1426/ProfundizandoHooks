@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import MultipleCustomHook from './components/MultipleCustomHooks';
+import {UseRefReal} from './components/useRef/useRefReal';
 
 function App() {
   return (
     <div className="App">
-      <MultipleCustomHook />
+      <UseRefReal />
     </div>
   );
 }
