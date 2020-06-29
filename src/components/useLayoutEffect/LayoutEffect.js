@@ -20,7 +20,7 @@ const LayoutEffect = () => {
 
   return (
     <div>
-      <h1>LayoutEffect</h1>
+      <h1>LayoutEffect ejemplo</h1>
       <hr />
 
       <blockquote style={{display: 'flex'}} className="blockquote text-right">
