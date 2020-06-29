@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {UseRefReal} from './components/useRef/useRefReal';
+import LayoutEffect from './components/useLayoutEffect/LayoutEffect';
 
 function App() {
   return (
     <div className="App">
-      <UseRefReal />
+      <LayoutEffect />
     </div>
   );
 }
