@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import LayoutEffect from './components/useLayoutEffect/LayoutEffect';
+import {Memorize} from './components/memo/Memorize';
 
 function App() {
   return (
     <div className="App">
-      <LayoutEffect />
+      <Memorize />
     </div>
   );
 }
