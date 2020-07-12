@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {Memorize} from './components/memo/Memorize';
+import { MemoHook } from './components/memo/MemoHook';
 
 function App() {
   return (
     <div className="App">
-      <Memorize />
+      <MemoHook />
     </div>
   );
 }
