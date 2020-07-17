@@ -1,11 +1,11 @@
 import React from 'react';
-import CallbackHook from './components/useCallback/CallbackHook';
+import { Padre } from './components/tareaMemo/Padre';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <CallbackHook />
+      <Padre />
     </div>
   );
 }
